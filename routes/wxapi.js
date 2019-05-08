@@ -3,7 +3,7 @@ var router = express.Router();
 var jsSHA = require('jssha');
 
 // 你的token值
-var token = "6d05aedab138be6bbbf40b41d65a45ec";
+var token = "";
 router.get('/', function (req, res, next) {
   //自定移动token，要与微信公众号里设置的一致
   //1.获取微信服务器Get请求的参数 signature、timestamp、nonce、echostr
